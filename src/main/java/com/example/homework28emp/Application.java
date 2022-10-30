@@ -1,4 +1,4 @@
-package com.example.homework2.Emp;
+package com.example.homework28emp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
