@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.homework28emp.EmployeeService;
+import com.example.homework28emp.service.EmployeeService;
 
 import java.util.List;
 
@@ -42,10 +42,10 @@ public class EmployeeController {
     }
 
     @GetMapping(path = "/print")
-    public Object printEmployees() {
+    public Object getAll() {
         List<Employee> employees = null;
         try {
-            employees = employeeService.printEmployees();
+            employees = employeeService.getAll();
         } catch (Throwable e) {
             return e.getMessage();
         }

@@ -1,6 +1,6 @@
 package com.example.homework28emp.controller;
 
-import com.example.homework28emp.DepartmentService;
+import com.example.homework28emp.service.DepartmentService;
 import com.example.homework28emp.Employee;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

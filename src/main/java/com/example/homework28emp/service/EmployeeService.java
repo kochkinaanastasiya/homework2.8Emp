@@ -1,4 +1,6 @@
-package com.example.homework28emp;
+package com.example.homework28emp.service;
+
+import com.example.homework28emp.Employee;
 
 import java.util.List;
 
@@ -10,6 +12,5 @@ public interface EmployeeService {
 
     Employee findEmployee(String firstName, String lastName);
     List <Employee> getAll();
-    List<Employee> printEmployees();
 
 }

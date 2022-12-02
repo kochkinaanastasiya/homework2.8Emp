@@ -1,5 +1,6 @@
-package com.example.homework28emp;
+package com.example.homework28emp.service;
 
+import com.example.homework28emp.Employee;
 import com.example.homework28emp.exception.EmployeeNotFoundException;
 import org.springframework.stereotype.Service;
 
